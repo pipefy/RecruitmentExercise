@@ -45,7 +45,7 @@ The Pipefy's organization you will displays the card is:
 
 ## Finding what you need among the endpoints:
 
-To gather the data you need to complete the exercise you will consume different endpoints of this API. Some endpoints you will need to call several times and some will be useless. Feel free to use everyone you need.
+To gather the data you need to complete the exercise you will consume different endpoints of this API. Some endpoints you will need to call several times and some will be useless. Feel free to use whatever you need.
 
 You may noticed that, given the customizable structure Pipefy have, the structure of the data returned by the API is a bit complex. So here is some tips to help you gather what you will need:
 
