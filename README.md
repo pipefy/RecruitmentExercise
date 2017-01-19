@@ -1,6 +1,6 @@
 # Pipefy's Recruitment Exercise
 
-You job in this exercise is to build a new Rails application from scratch which will connect via Pipefy's API to download, store and display a list of cards.
+Your job in this exercise is to build a new Rails application from scratch which will connect via Pipefy's API to download, store and display a list of cards.
 
 This app should have a single page, the root page, and it should display something similar to this:
 
