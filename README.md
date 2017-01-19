@@ -18,13 +18,14 @@ The goal of this page is to display a complete list of cards of every pipe in th
 
 ## Requirements and Rules:
 
-* The application must be a completely new Rails 5 application;
+* The application must be a completely new Rails application;
 * You should use a new Github public repository to version the application's source code;
 * You are free to use any Gem or Library you want;
 * The page should not hit the API everytime it's loaded, only when the[Fetch new data] is clicked;
 * You need to create a database structure to store the data you need to build the interface;
 * You need to PostgreSQL and deploy the application to [Heroku](www.heroku.com);
 * When you are done, send us the link to the GitHub reposity and the live application running at Heroku;
+* You should write automated tests using what you prefer;
 
 ## How to access Pipefy's API?
 
