@@ -10,7 +10,7 @@ As you can see in the image above, there are multiple tables displaying **Cards*
 
 At the top right corner there is the [Fetch new data] button. When the user clicks it, the application connects to the API and fetch everything that will need to build the interface.
 
-At Pipefy, each organization can have multiple pipes. Each pipe have its own unique configuration including **Phases** and **Fields**. Each phase can have multiple fields. Both phases and fields are fully customizable by the user.
+At Pipefy, each organization can have multiple pipes. Each pipe has its own unique configuration including **Phases** and **Fields**. Each phase can have multiple fields. Both phases and fields are fully customizable by the user.
 
 Within the pipe the user creates **Cards** which will run through the pipe's process following his rules and specifications. The card displays a dynamic form where the user can input values in pipe's custom fields. So the each card holds the *Field Values* of the fields of every phase from the pipe. :)
 
