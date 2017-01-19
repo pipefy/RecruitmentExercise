@@ -4,7 +4,7 @@ You job in this exercise is to build a new Rails application from scratch which 
 
 This app should have a single page, the root page, and it should display something similar to this:
 
-![](https://raw.githubusercontent.com/pipefy/RecruitmentExercise/master/exercise_page_output_example.png)
+![](https://raw.githubusercontent.com/pipefy/RecruitmentExercise/master/exercise_page_outut_example.png)
 
 As you can see in the above image, there are multiple tables displaying **Cards**. Every table is grouped by it's **Pipe** name. And at the top of the page there is the name of the **Organization**.
 
