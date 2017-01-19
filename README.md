@@ -58,4 +58,4 @@ You may noticed that, given the customizable structure Pipefy have, the structur
 
 Take your time to build the exercise and feel free to ask any questions you may have.
 
-
+Thanks!
