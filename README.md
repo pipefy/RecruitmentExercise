@@ -31,7 +31,7 @@ The goal of this page is to display a complete list of cards of every pipe in th
 
 [You can find the API documentation here.](https://www.gitbook.com/book/pipefy/pipefy-api-docs/details)
 
-Here is the credentials you will need to connect via API:
+Here are the credentials you will need to connect via API:
 
 | E-Mail                                     | Token                |
 |--------------------------------------------|----------------------|
