@@ -6,15 +6,15 @@ This app should have a single page, the root page, and it should display somethi
 
 ![](https://raw.githubusercontent.com/pipefy/RecruitmentExercise/master/exercise_page_output_example.png)
 
-As you can see in the image above, there are multiple tables displaying **Cards**. Every table is grouped by it's **Pipe** name. And at the top of the page there is the name of the **Organization**.
+As you can see in the image above, there are multiple tables displaying **Cards**. Every table is grouped by its **Pipe** name. And at the top of the page there is the name of the **Organization**.
 
-At the top right corner there is the [Fetch new data] button. When the user clicks it, the application connects to the API and fetch everything that will need to build the interface.
+At the top right corner there is the [Fetch new data] button. When the user clicks it, the application connects to the API and fetches everything that it will need to build the interface.
 
 At Pipefy, each organization can have multiple pipes. Each pipe has its own unique configuration including **Phases** and **Fields**. Each phase can have multiple fields. Both phases and fields are fully customizable by the user.
 
-Within the pipe the user creates **Cards** which will run through the pipe's process following his rules and specifications. The card displays a dynamic form where the user can input values in pipe's custom fields. So the each card holds the *Field Values* of the fields of every phase from the pipe. :)
+Within the pipe the user creates **Cards** which will run through the pipe's process following his rules and specifications. The card displays a dynamic form where the user can input values in the pipe's custom fields. So each card holds the *Field Values* of the fields of every phase from the pipe. :)
 
-The goal of this page is to display a complete list of cards of every pipe in the organization. The cards table must follow the pipe settings and display fields in columns and each card show its field values.
+The goal of this page is to display a complete list of cards of every pipe in the organization. The cards table must follow the pipe's settings and display fields in columns and each card shows its field values.
 
 ## Requirements and Rules:
 
@@ -47,7 +47,7 @@ The Pipefy's organization you will displays the card is:
 
 To gather the data you need to complete the exercise you will consume different endpoints of this API. Some endpoints you will need to call several times and some will be useless. Feel free to use whatever you need.
 
-You may have noticed that, given the customizable structure Pipefy have, the structure of the data returned by the API is a bit complex. So here are some tips to help you gather what you will need:
+You may have noticed that, given the customizable structure Pipefy has, the structure of the data returned by the API is a bit complex. So here are some tips to help you gather what you will need:
 
 * Inside the pipe, you will have the `id`s of its Phases;
 * Requesting each phase will give you the `fields` of every phase;
