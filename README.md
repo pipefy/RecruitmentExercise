@@ -37,7 +37,7 @@ Here are the credentials you will need to connect via API:
 |--------------------------------------------|----------------------|
 | pipefydevrecruitingfakeuser@mailinator.com | piBag2uUBesD6X1q78FR |
 
-The Pipefy's organization you will displays the card is:
+The Pipefy's organization you will display the cards is:
 
 | Organization ID |
 |-----------------|
