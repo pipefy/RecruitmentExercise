@@ -89,8 +89,6 @@ mutation {
 
 ## Recomendações
 
-Recomendamos que você use o [Apollo Client](https://github.com/apollographql/apollo-client) para facilitar a comunicação da sua aplicação com a API GraphQL do Pipefy.
-
 Também recomendamos que use o [Redux](https://github.com/reactjs/redux) para facilitar o gerenciamento do estado da sua aplicação.
 
 ## Prazos
