@@ -65,6 +65,7 @@ Para ler as informações do formulário, você usará a seguinte _query_:
         id
         label
       }
+      __typename
     }
   }
 }
