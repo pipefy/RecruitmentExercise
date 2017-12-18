@@ -2,9 +2,9 @@
 
 O objetivo deste exercício é avaliar o conhecimento de React e suas bibliotecas relacionadas para desenvolvimento front-end.
 
-Você deve construir uma aplicação React que renderize um Public Form. Esta aplicação deverá:
+Você deve construir uma aplicação React que renderize um formulário do Pipefy. Esta aplicação deverá:
 
-* Ter uma única página, que mostra todos os campos deste Public Form;
+* Ter uma única página, que mostra todos os campos deste formulário;
 * Armazenar os valores destes campos conforme forem preenchidos;
 * Submetê-los à API do Pipefy quando o formulário for enviado (lembrando de validá-los se houverem mensagens de erro).
 
@@ -22,7 +22,7 @@ A aplicação final deverá se parecer com isso:
 
 ## Acesso à API
 
-O Pipefy usa uma API [GraphQL](http://graphql.org/learn/) para a consulta e modificação das suas informações. A API para acessar o Public Form se encontra neste endpoint: https://app.pipefy.com/public_api
+O Pipefy usa uma API [GraphQL](http://graphql.org/learn/) para a consulta e modificação das suas informações. A API para acessar o formulário se encontra neste endpoint: https://app.pipefy.com/public_api
 
 Para ler as informações do formulário, você usará a seguinte _query_:
 
