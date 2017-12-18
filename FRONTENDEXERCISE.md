@@ -11,6 +11,7 @@ Você deve construir uma aplicação React que renderize um formulário do Pipef
 A aplicação final deverá se parecer com isso:
 
 ![screen shot 2017-12-18 at 16 34 05](https://user-images.githubusercontent.com/465990/34122868-f39dae42-e414-11e7-9df0-8e287759dc98.png)
+
 **Obs**: Esta é apenas uma imagem de referência para ajuda visual. O importante neste exercício não é o layout e a organização visual, e sim o código em si.
 
 ## Regras
