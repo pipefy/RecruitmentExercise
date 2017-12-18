@@ -12,7 +12,7 @@ At the top right corner there is the `Fetch new data` button. When the user clic
 
 At Pipefy, each organization can have multiple pipes. Each pipe has its own unique configuration including **Phases** and **Fields**. Each phase can have multiple fields. Both phases and fields are fully customizable by the user.
 
-Within the pipe the user creates **Cards** which will run through the pipe's process following his rules and specifications. The card displays a dynamic form where the user can input values in the pipe's custom fields. So each card holds the *Field Values* of the fields of every phase from the pipe.
+Within the pipe the user creates **Cards** which will run through the pipe's process following his rules and specifications. The card displays a dynamic form where the user can input values in the pipe's custom fields. So each card holds the _Field Values_ of the fields of every phase from the pipe.
 
 The goal of this page is to display a complete list of cards from a specific pipe in the organization. The cards table must follow the pipe's settings and display fields in columns and each card shows its field values.
 
@@ -36,14 +36,14 @@ When you're done, send us the link to the GitHub reposity and the live applicati
 
 Here are the credentials you will need to connect via API:
 
-| E-Mail                                     | Token                |
-|--------------------------------------------|----------------------|
-| pipefydevrecruitingfakeuser@mailinator.com | piBag2uUBesD6X1q78FR |
+| E-Mail                                     | Token                                                                                                                                                                                                                                                    |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| pipefydevrecruitingfakeuser@mailinator.com | eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJ1c2VyIjp7ImlkIjo2NjE0MCwiZW1haWwiOiJwaXBlZnlkZXZyZWNydWl0aW5nZmFrZXVzZXJAbWFpbGluYXRvci5jb20iLCJhcHBsaWNhdGlvbiI6NDUzOH19.uUX4KIR4m_K-8NwLYhtVpsNnLEoLARebIQiyQDxEm3RZLHCffLrcH-V8RmuJLu8nqE8AQ-SvqUvgz3fe0UyZ4w |
 
 And here're the basic IDs you'll need:
 
 | Organization ID | Pipe ID |
-|-----------------|---------|
+| --------------- | ------- |
 | 92858           | 335557  |
 
 ## Finding what you need among the endpoints:
@@ -57,7 +57,6 @@ You may have noticed that, given the customizable structure Pipefy has, the stru
 * Each Field is nested under a specific Phase
 * Inside each Phase you can find his Cards too
 * You'll find `fields` under Cards that returns all Field Values
-
 
 ## Good Luck!
 
