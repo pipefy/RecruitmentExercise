@@ -11,11 +11,12 @@ Você deve construir uma aplicação React que renderize um formulário do Pipef
 A aplicação final deverá se parecer com isso:
 
 ![screen shot 2017-12-18 at 16 34 05](https://user-images.githubusercontent.com/465990/34122868-f39dae42-e414-11e7-9df0-8e287759dc98.png)
+**Obs**: Esta é apenas uma imagem de referência para ajuda visual. O importante neste exercício não é o layout e a organização visual, e sim o código em si.
 
 ## Regras
 
 * O exercício deverá ser feito em um novo repositório público no GitHub;
-* Você pode usar qualquer biblioteca que quiser;
+* Você pode usar qualquer biblioteca que desejar;
   * Caso use uma biblioteca com boilerplate como o create-react-app, um commit com os arquivos de boilerplate deve ser feito separado do resto do seu código
 * Você deve escrever testes automatizados, usando a biblioteca e a forma que preferir;
 * Sua aplicação deve ser hospedada no [Heroku](https://dashboard.heroku.com/);
