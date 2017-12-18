@@ -91,11 +91,11 @@ mutation {
 }
 ```
 
-**Obs**: Este exemplo contempla somente o valor do primeiro campo. Porém, a estrutura básica se mantém.
+**Obs**: Este exemplo contempla somente o valor do primeiro campo. Porém, a estrutura básica se mantém. Além do mais, recomendamos que use variáveis GraphQL para fazer a inclusão dos valores dos campos
 
 ## Recomendações
 
-Também recomendamos que use o [Redux](https://github.com/reactjs/redux) para facilitar o gerenciamento do estado da sua aplicação.
+Recomendamos que use o [Redux](https://github.com/reactjs/redux) para facilitar o gerenciamento do estado da sua aplicação.
 
 ## Prazos
 
