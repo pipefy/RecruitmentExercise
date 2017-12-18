@@ -8,6 +8,10 @@ Você deve construir uma aplicação React que renderize um Public Form. Esta ap
 * Armazenar os valores destes campos conforme forem preenchidos;
 * Submetê-los à API do Pipefy quando o formulário for enviado (lembrando de validá-los se houverem mensagens de erro).
 
+A aplicação final deverá se parecer com isso:
+
+![screen shot 2017-12-18 at 16 34 05](https://user-images.githubusercontent.com/465990/34122868-f39dae42-e414-11e7-9df0-8e287759dc98.png)
+
 ## Regras
 
 * O exercício deverá ser feito em um novo repositório público no GitHub;
