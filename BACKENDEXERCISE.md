@@ -61,6 +61,6 @@ You may have noticed that, given the customizable structure Pipefy has, the stru
 
 ## Good Luck!
 
-Take your time to build the exercise and feel **free to ask** any questions you may have.
+You've one week to build the exercise and feel **free to ask** any questions you may have.
 
 Thanks!
