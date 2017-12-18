@@ -44,7 +44,7 @@ Para ler as informações do formulário, você usará a seguinte _query_:
         id
         label
       }
-			...on SelectField {
+      ...on SelectField {
         id
         label
         options
