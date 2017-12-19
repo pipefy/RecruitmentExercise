@@ -23,7 +23,7 @@ The application will be similar to this:
 
 ## API Access
 
-Pipefy uses a [GraphQL](http://graphql.org/learn/) API to get and change data. The API's endpoint you will use is at: https://app.pipefy.com/public_api.
+Pipefy uses a [GraphQL](http://graphql.org/learn/) API to get and change data. The API's endpoint you will use is at: https://app.pipefy.com/public_api. You must use the `POST` HTTP method.
 
 To **get the form data**, you will use the following **query**:
 
