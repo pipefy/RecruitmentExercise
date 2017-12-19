@@ -1,32 +1,31 @@
-# Exercício de Recrutamento - Pipefy
+# Recruitment Exercise - Pipefy
 
-O objetivo deste exercício é avaliar o conhecimento de React e suas bibliotecas relacionadas para desenvolvimento front-end.
+The objective is evaluate your knowledge and experience with React and related libraries for front-end development.
 
-Você deve construir uma aplicação React que renderize um formulário do Pipefy. Esta aplicação deverá:
+You will build a React application that will render a Pipey form. This application must:
+* Be a single page application, displaying all the form fields;
+* Store internally the values of these fields, as the user fill them up;
+* Submit the form to Pipefy's API;
+* Display any error messages sent by the API.
 
-* Ter uma única página, que mostra todos os campos deste formulário;
-* Armazenar os valores destes campos conforme forem preenchidos;
-* Submetê-los à API do Pipefy quando o formulário for enviado (lembrando de validá-los se houverem mensagens de erro).
-
-A aplicação final deverá se parecer com isso:
-
+The application will be similar to this:
 ![screen shot 2017-12-18 at 16 34 05](https://user-images.githubusercontent.com/465990/34122868-f39dae42-e414-11e7-9df0-8e287759dc98.png)
 
-**Obs**: Esta é apenas uma imagem de referência para ajuda visual. O importante neste exercício não é o layout e a organização visual, e sim o código em si.
+**Obs**: This is only a reference. The most important part of the application is not the layout and visual structure, but the the JavaScript code.
 
-## Regras
+## Rules
 
-* O exercício deverá ser feito em um novo repositório público no GitHub;
-* Você pode usar qualquer biblioteca que desejar;
-  * Caso use uma biblioteca com boilerplate como o create-react-app, um commit com os arquivos de boilerplate deve ser feito separado do resto do seu código
-* Você deve escrever testes automatizados, usando a biblioteca e a forma que preferir;
-* Sua aplicação deve ser hospedada no [Heroku](https://dashboard.heroku.com/);
+* Your code must be hosted on a public GitHub repository;
+* You may use whatever libraries you want, besides React (check out the Recommendations sections below);
+  - In case you use a boilerplate library, such as `create-react-app`, you must create a separated git commit for the files created by this library;
+* You must write automated tests, using the library of your choice;
+* You must publish your application at [Heroku](https://dashboard.heroku.com/).
 
-## Acesso à API
+## API Access
 
-O Pipefy usa uma API [GraphQL](http://graphql.org/learn/) para a consulta e modificação das suas informações. A API para acessar o formulário se encontra neste endpoint: https://app.pipefy.com/public_api
+Pipefy uses a [GraphQL](http://graphql.org/learn/) API to get and change data. The API's endpoint you will use is at: https://app.pipefy.com/public_api.
 
-Para ler as informações do formulário, você usará a seguinte _query_:
+To **get the form data**, you will use the following **query**:
 
 ```
 {
@@ -39,7 +38,7 @@ Para ler as informações do formulário, você usará a seguinte _query_:
 
     formFields {
       ...on ShortTextField {
-      	id
+        id
         label
       }
       ...on LongTextField {
@@ -71,7 +70,7 @@ Para ler as informações do formulário, você usará a seguinte _query_:
 }
 ```
 
-Para submeter o formulário, você usará a seguinte _mutation_:
+**To submit the form**, you will use the following **mutation**:
 
 ```
 mutation {
@@ -92,18 +91,19 @@ mutation {
 }
 ```
 
-**Obs**: Este exemplo contempla somente o valor do primeiro campo. Porém, a estrutura básica se mantém. Além do mais, recomendamos que use variáveis GraphQL para fazer a inclusão dos valores dos campos
+**Obs**: This example handles only the value for the first form's field. But the structure is the same for all of them. You must change it accordingly. Besides, we recommend the use of [GraphQL variables](http://graphql.org/learn/queries/#variables) for the fields values.
 
-## Recomendações
+## Recommendations
 
-Recomendamos que use o [Redux](https://github.com/reactjs/redux) para facilitar o gerenciamento do estado da sua aplicação.
+We recommend [Redux](https://github.com/reactjs/redux) to help on managing the state of all your application.
 
-## Prazos
+## Deadline
 
-Este exercício deverá ser completado em até **uma semana** contando a partir do dia em que ele foi enviado para você.
+This exercise must be completed within **one week** from the day it was sent you.
 
-## Boa sorte!
+## Good luck!
 
-Fique à vontade para tirar _quaisquer dúvidas_ conosco, caso elas surjam.
+Feel free to ask **any questions** you might have during the development of your app.
 
-Obrigado!
+Thank you!
+
