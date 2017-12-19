@@ -24,7 +24,7 @@ A aplicação final deverá se parecer com isso:
 
 ## Acesso à API
 
-O Pipefy usa uma API [GraphQL](http://graphql.org/learn/) para a consulta e modificação das suas informações. A API para acessar o formulário se encontra neste endpoint: https://app.pipefy.com/public_api
+O Pipefy usa uma API [GraphQL](http://graphql.org/learn/) para a consulta e modificação das suas informações. A API para acessar o formulário se encontra neste endpoint: https://app.pipefy.com/public_api. É necessário fazer um request com o método POST para este endpoint.
 
 Para ler as informações do formulário, você usará a seguinte _query_:
 
