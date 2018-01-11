@@ -9,7 +9,6 @@ You will build a React application that will render a Pipey form. This applicati
 * Submit the form to Pipefy's API;
 * Display any error messages sent by the API.
 
-The application will be similar to this:
 ![screen shot 2017-12-18 at 16 34 05](https://user-images.githubusercontent.com/465990/34122868-f39dae42-e414-11e7-9df0-8e287759dc98.png)
 
 **Obs**: This is only a reference. The most important part of the application is not the layout and visual structure, but the the JavaScript code.
