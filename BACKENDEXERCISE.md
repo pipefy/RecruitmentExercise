@@ -27,6 +27,7 @@ The goal of this page is to display a complete list of cards from a specific pip
 * You need to create a database structure to store the data
 * You need to deploy the application to [Heroku](www.heroku.com)
 * You should write automated tests using what you prefer
+* When fetching new data, you must update the already persisted data
 
 When you're done, send us the link to the GitHub reposity and the live application running at Heroku.
 
