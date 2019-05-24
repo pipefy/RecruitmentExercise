@@ -31,7 +31,7 @@ Create a new account on the platform at (https://app.pipefy.com/) and select _Sa
 - The application should have automated tests
 - The page should not hit the API everytime it's loaded, only when the `Fetch new data` button is clicked
 - You need to create a database structure to store the data
-- When fetching new data, the data in the database must be updated -- The strategy is up to you be it overriding or even event-sourcing the data.
+- When fetching new data, the data in the database must be updated -- The strategy is up to you (e.g. overriding, even event-sourcing the data...).
 - The database must be PostgreSQL
 
 ## Optional objectives
